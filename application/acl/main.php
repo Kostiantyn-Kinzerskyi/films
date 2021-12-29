@@ -3,7 +3,6 @@
 return [
 	'all' => [
 		'index',
-		'films',
 		'filminfo'
 	],
 	'authorize' => [

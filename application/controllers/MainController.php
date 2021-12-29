@@ -7,12 +7,6 @@ use application\core\Controller;
 class MainController extends Controller {
 
 	public function indexAction() {
-		$vars['page'] = "main";
-
-		$this->view->render('Главная страница', $vars);
-	}
-
-	public function filmsAction() {
 		$vars['init'] = 0;
 		if (isset($_FILES['filename']))
 		{
